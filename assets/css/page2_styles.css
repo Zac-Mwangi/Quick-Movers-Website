@@ -42,6 +42,23 @@ background-color: #D3D3D3;
 }
 .body_1 > .img_and_form > .form > input > #fname{
     box-sizing: border-box;
-    border: 2px solid red;
+    border: 2px;
     border-radius: 10px;
+}
+.body_content_2{
+    background-color: #D3D3D3;
+}
+.body_content_2 > .rgt{
+    padding: 2cm;
+}
+.body_content_3{
+    display: flex;
+    justify-content:space-between;
+    background-color: #D3D3D3;
+
+}
+.body_content_3 > .r{
+    display: flex;
+    justify-content:space-between;
+    padding: 2cm;
 }
