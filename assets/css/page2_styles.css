@@ -18,8 +18,8 @@ nav > .thelinks > ul > li{
     color: white;
 }
 .header{
-    background-color: #000;
-    color: white;
+  background-image: linear-gradient(to right top, #000000, #030202, #20100b, #351e0b, #644203);
+  color: white;
     padding: 1cm;
 }
 .header > .header_other_contents{
@@ -44,6 +44,8 @@ background-color: #D3D3D3;
     box-sizing: border-box;
     border: 2px;
     border-radius: 10px;
+    box-shadow: 5px 10px;
+
 }
 .body_content_2{
     background-color: #D3D3D3;
