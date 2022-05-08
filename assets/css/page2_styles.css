@@ -26,3 +26,22 @@ nav > .thelinks > ul > li{
     display: flex;
     justify-content:space-between;
 }
+.body_1 > .img_and_form{
+    display: flex;
+    justify-content:space-between;
+    padding: 2cm;
+}
+.body_1{
+background-color: #D3D3D3;
+}
+.body_1 > .img_and_form >.form{
+    background-color: white;
+    padding: 3cm;
+    border-color: white;
+    border-radius: 10px;
+}
+.body_1 > .img_and_form > .form > input > #fname{
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 10px;
+}
