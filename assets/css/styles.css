@@ -4,6 +4,7 @@ body{
     margin: 30px 30px;
     color: #000;
     font-family: 'Poppins', 'Actor', 'Adamina';
+    margin-bottom: 3cm;
 }
 nav{
     display: flex;
@@ -32,32 +33,49 @@ nav > .thelinks > ul > li{
 }
 
 /*  */
-#sectBoutMe{
+#cth{
     margin-top: 30px;
     margin-bottom: 30px;
   }
   
-  #sectBoutMe > .boutme{
+  #cth > .cth1{
     display: flex;
   }
   
-  #sectBoutMe > .boutme > .leftside, .rightside{
+  #cth > .cth1 > .leftside, .rightside{
     width: 50%;
   }
   
-  #sectBoutMe > .boutme > .leftside{
+  #cth > .cth1 > .leftside{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-right: 2cm;
   }
   
-  #sectBoutMe > .boutme > .rightside{
+  #cth > .cth1 > .rightside{
     padding-right: 30px;
   }
   
-  #sectBoutMe > .boutme > .rightside > button{
+  #cth > .cth1 > .rightside > button{
     background-color: cornflowerblue;
     padding: 5px;
     color: white;
+  }
+  .our_top_movers{
+    background-color: #D3D3D3;
+    padding: 4cm;
+  }
+
+  /* images of top movers */
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  .our_top_movers > .pics{
+    margin-top: 3cm;
   }
