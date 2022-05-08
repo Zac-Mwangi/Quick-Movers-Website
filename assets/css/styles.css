@@ -94,3 +94,6 @@ nav > .thelinks > ul > li{
   #footer > .row > .column > ul > li{
     list-style: none;
   }
+  span{
+    border-top: #fcfbfa;
+  }
