@@ -1,7 +1,7 @@
 # Quick-Movers-Website
 
 1. Author
-  -Zaharia Mwangi
+  - Zaharia Mwangi
 2. Project Title
   - Quick-Movers-Website
 3. Project Description
