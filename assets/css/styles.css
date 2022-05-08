@@ -1,5 +1,63 @@
 body{
     background-color: white;
     padding: 0;
-    margin: 0;
+    margin: 30px 30px;
+    color: #000;
+    font-family: 'Poppins', 'Actor', 'Adamina';
 }
+nav{
+    display: flex;
+    justify-content:space-between;
+}
+nav > .thelinks > ul > li{
+    display: inline-block;
+    padding: 10px;
+    color: white;
+  }
+#headerSectionAndNav{
+    opacity: 0.8;
+    background-image: url("../img/moving 1.png");
+    background-size: cover; 
+    background-position: center center;
+    height:80vh;
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */  
+}
+#headerSectionAndNav > .headerContent{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    text-align: center;
+}
+
+/*  */
+#sectBoutMe{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  #sectBoutMe > .boutme{
+    display: flex;
+  }
+  
+  #sectBoutMe > .boutme > .leftside, .rightside{
+    width: 50%;
+  }
+  
+  #sectBoutMe > .boutme > .leftside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 2cm;
+  }
+  
+  #sectBoutMe > .boutme > .rightside{
+    padding-right: 30px;
+  }
+  
+  #sectBoutMe > .boutme > .rightside > button{
+    background-color: cornflowerblue;
+    padding: 5px;
+    color: white;
+  }
