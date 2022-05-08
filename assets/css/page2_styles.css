@@ -78,3 +78,16 @@ background-color: #D3D3D3;
   .body_content_3 >.r >.rgt  .row > .column > ul > li{
     list-style: none;
   }
+  .body_content_4{
+      background-color: #D3D3D3;
+      padding: 2cm;
+
+  }
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
