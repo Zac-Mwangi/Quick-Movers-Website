@@ -81,7 +81,7 @@ nav > .thelinks > ul > li{
   }
   #footer{
     color: white;
-    background-color: #654321;
+    background-color: black;
     /* background: linear-gradient(1deg, rgba(166,166,166,1) 0%, rgba(255,255,255,1) 29%); */
     padding: 4cm;
   }
