@@ -68,14 +68,30 @@ nav > .thelinks > ul > li{
   }
 
   /* images of top movers */
-  .row {
+  .pics > .row {
     display: flex;
   }
   
-  .column {
+  .pics > .row > .column {
     flex: 33.33%;
     padding: 5px;
   }
   .our_top_movers > .pics{
     margin-top: 3cm;
+  }
+  #footer{
+    color: white;
+    background-color: #654321;
+    padding: 4cm;
+  }
+  #footer > .row {
+    display: flex;
+  }
+  
+  #footer > .row > .column {
+    flex: 25%;
+    padding: 5px;
+  }
+  #footer > .row > .column > ul > li{
+    list-style: none;
   }
