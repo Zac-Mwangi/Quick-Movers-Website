@@ -1,4 +1,4 @@
-body{
+body {
     background-color: white;
     padding: 0;
     margin: 30px 30px;
@@ -6,94 +6,107 @@ body{
     font-family: 'Poppins', 'Actor', 'Adamina';
     margin-bottom: 3cm;
 }
-nav{
+
+nav {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
-nav > .thelinks > ul > li{
+
+nav>.thelinks>ul>li {
     display: inline-block;
     padding: 10px;
     color: white;
 }
-#headerSectionAndNav{
+
+#headerSectionAndNav {
     opacity: 0.8;
     background-image: url("../img/moving 1.png");
-    background-size: cover; 
+    background-size: cover;
     background-position: center center;
-    height:80vh;
+    height: 80vh;
     /* display: flex; */
     /* align-items: center;
-    justify-content: center; */  
+    justify-content: center; */
 }
-#headerSectionAndNav > .headerContent{
+
+#headerSectionAndNav>.headerContent {
     align-items: center;
     justify-content: center;
     /* text-align: center;*/
 }
 
-#cth{
+#cth {
     margin-top: 30px;
     margin-bottom: 30px;
-  }
-  
-  #cth > .cth1{
+}
+
+#cth>.cth1 {
     display: flex;
-  }
-  
-  #cth > .cth1 > .leftside, .rightside{
+}
+
+#cth>.cth1>.leftside,
+.rightside {
     width: 50%;
-  }
-  
-  #cth > .cth1 > .leftside{
+}
+
+#cth>.cth1>.leftside {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-right: 2cm;
-  }
-  
-  #cth > .cth1 > .rightside{
+}
+
+#cth>.cth1>.rightside {
     padding-right: 30px;
-  }
-  
-  #cth > .cth1 > .rightside > button{
+}
+
+#cth>.cth1>.rightside>button {
     background-color: cornflowerblue;
     padding: 5px;
     color: white;
-  }
-  .our_top_movers{
+}
+
+.our_top_movers {
     background-color: #D3D3D3;
     padding: 4cm;
-  }
+}
 
-  /* images of top movers */
-  .pics > .row {
+
+/* images of top movers */
+
+.pics>.row {
     display: flex;
-  }
-  
-  .pics > .row > .column {
+}
+
+.pics>.row>.column {
     flex: 33.33%;
     padding: 5px;
-  }
-  .our_top_movers > .pics{
+}
+
+.our_top_movers>.pics {
     margin-top: 3cm;
-  }
-  #footer{
+}
+
+#footer {
     color: white;
     background-image: linear-gradient(to right top, #000000, #030202, #20100b, #351e0b, #644203);
     /* background: linear-gradient(1deg, rgba(166,166,166,1) 0%, rgba(255,255,255,1) 29%); */
     padding: 4cm;
-  }
-  #footer > .row {
+}
+
+#footer>.row {
     display: flex;
-  }
-  
-  #footer > .row > .column {
+}
+
+#footer>.row>.column {
     flex: 25%;
     padding: 5px;
-  }
-  #footer > .row > .column > ul > li{
+}
+
+#footer>.row>.column>ul>li {
     list-style: none;
-  }
-  span{
+}
+
+span {
     border-top: #fcfbfa;
-  }
+}
